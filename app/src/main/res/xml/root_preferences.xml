@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/title_preference_workout">
+
+        <EditTextPreference
+            android:id="@+id/pExerciseInterval"
+            android:defaultValue="@integer/etp_dv_exercise_interval"
+            android:key="etp_key_exercise_interval"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/etp_exercise_interval"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:id="@+id/pRestInterval"
+            android:defaultValue="@integer/etp_dv_rest_interval"
+            android:key="etp_key_rest_interval"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/etp_rest_interval"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "788758428749",
+    "firebase_url": "https://workoutappdb-default-rtdb.firebaseio.com",
+    "project_id": "workoutappdb",
+    "storage_bucket": "workoutappdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788758428749:android:fae514ba644daffce0b004",
+        "android_client_info": {
+          "package_name": "nl.vinsev.workoutapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "788758428749-29adstl9cpbm16kqq5v5rlc76l8uv8b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwRZzJwjVJWDE6GFPoDcygBKuVUa53qOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "788758428749-29adstl9cpbm16kqq5v5rlc76l8uv8b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

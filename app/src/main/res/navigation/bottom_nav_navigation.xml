@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_nav_navigation"
+    app:startDestination="@id/navigation_workouts">
+
+    <fragment
+        android:id="@+id/navigation_workouts"
+        android:name="nl.vinsev.workoutapp.fragment.WorkoutsFragment"
+        android:label="@string/bottom_nav_workouts" >
+        <action
+            android:id="@+id/action_navigation_workouts_to_navigation_progress"
+            app:destination="@id/navigation_progress" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="nl.vinsev.workoutapp.fragment.ProgressFragment"
+        android:label="@string/bottom_nav_progress" >
+        <action
+            android:id="@+id/action_navigation_progress_to_navigation_workouts"
+            app:destination="@id/navigation_workouts" />
+    </fragment>
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_nav_workouts"
+        android:icon="@drawable/fitness_center_24"
+        android:title="@string/bottom_nav_workouts" />
+    <item
+        android:id="@+id/bottom_nav_progress"
+        android:icon="@drawable/trending_up_24"
+        android:title="@string/bottom_nav_progress" />
+</menu>
